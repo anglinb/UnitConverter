@@ -9,5 +9,9 @@
 #import <UIKit/UIKit.h>
 
 @interface ViewController : UIViewController
+@property (weak, nonatomic) IBOutlet UIButton *convertButton;
+@property (weak, nonatomic) IBOutlet UITextField *metersField;
+@property (weak, nonatomic) IBOutlet UITextField *feetField;
+@property (weak, nonatomic) IBOutlet UIButton *clearButton;
 
 @end
